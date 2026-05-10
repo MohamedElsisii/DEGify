@@ -1,0 +1,36 @@
+Package: DEGify
+Type: Package
+Title: Automated Bulk RNA-Seq Differential Expression Analysis Framework
+Version: 0.1.0
+Authors@R: 
+    person(
+        "Mohamed",
+        "Elsisi",
+        email = "M.elsisi@nu.edu.eg",
+        role = c("aut", "cre")
+    )
+Description: 
+    DEGify provides an automated framework for bulk RNA-seq downstream analysis,
+    including differential expression analysis, visualization, PCA analysis,
+    heatmaps, and Gene Ontology enrichment from count matrices using DESeq2.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.2.0)
+Imports:
+    DESeq2,
+    AnnotationDbi,
+    org.Hs.eg.db,
+    dplyr,
+    ggplot2,
+    ggrepel,
+    pheatmap,
+    clusterProfiler,
+    enrichplot,
+    rmarkdown,
+    biomaRt,
+    tibble,
+    SummarizedExperiment
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.0.0

@@ -1,0 +1,12 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user
+
+DEGify_Output/
+
+*.tar.gz
+*.Rcheck
+
+.DS_Store
+Thumbs.db
